@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ZombieGame-1276.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\BallPlayer.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGame.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGameGameModeBase.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\BallPlayer.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGame.init.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGameGameModeBase.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Default.rc2.res"
+/OUT:"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-1276.lib"
+/INCLUDE:IMPLEMENT_MODULE_ZombieGame
