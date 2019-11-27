@@ -5,6 +5,7 @@
 #include <cmath>
 #include <iostream>
 
+bool WasRight = false;
 // Sets default values
 ABallPlayer::ABallPlayer()
 {
@@ -60,20 +61,37 @@ void ABallPlayer::MoveUp(float value)
 {
 	FVector DirectionHelp = Camera->GetForwardVector();
 	FVector ForceToAdd = DirectionHelp * MovementForce * value;
+
 	
 	Mesh->AddForce(ForceToAdd);
+
+	
 }
 
 void ABallPlayer::MoveRight(float value)
 {
 	FVector DirectionHelp = Camera->GetRightVector();
-	FVector Aux = GetVelocity();
-	//if(abs(value) == 1)
-		//Mesh->AddForce(FVector(Aux.X * -1, -Aux.Y * -1, -Aux.Z * -1));
+	FVector Aux = -GetVelocity();
+	
+	if (abs(value) > 0 && WasRight == false)
+	{
+		Mesh->AddForce(FVector(Aux.X, Aux.Y, Aux.Z));
+		WasRight = true;
+		UE_LOG(LogTemp, Warning, TEXT("Got Here"));
 
+	}
+	else
+		WasRight = false;
+	UE_LOG(LogTemp, Warning, TEXT("Velocity: %f, %f, %f"), Aux.X, Aux.Y, Aux.Z);
+	
 	//UE_LOG(LogTemp, Warning, TEXT("Checkpoint %d,%d,%d reached"),  GetVelocity().X, GetVelocity().Y, GetVelocity().Z);
 
-	FVector ForceToAdd = DirectionHelp * MovementForce * value*1.5f;
-	Mesh->AddForce(ForceToAdd);
+
+
+
+
+
+	//FVector ForceToAdd = DirectionHelp * MovementForce * value*1.5f;
+	//Mesh->AddForce(ForceToAdd);
 }
 

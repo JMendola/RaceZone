@@ -426,21 +426,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Inc\ZombieGame"
-/I "C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Source"
-/I "C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Source\ZombieGame"
+/I "C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Inc\ZombieGame"
+/I "C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source"
+/I "C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source\ZombieGame"
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Source\ZombieGame\KillPlane.cpp"
-/FI"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Definitions.ZombieGame.h"
-/Fo"C:\Users\Pedro Santos\Unreal\5th Semester\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\KillPlane.cpp.obj"
+/FI"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source\ZombieGame\KillPlane.cpp"
+/FI"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Definitions.ZombieGame.h"
+/Fo"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\KillPlane.cpp.obj"
 /TP
 /GR-
 /W4
