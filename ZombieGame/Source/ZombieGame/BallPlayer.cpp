@@ -21,6 +21,8 @@ ABallPlayer::ABallPlayer()
 	SpringArm->SetupAttachment(Mesh);
 	Camera->SetupAttachment(SpringArm);
 
+//	VelocityHelper= FVector(0,0,0);
+
 	Mesh->SetSimulatePhysics(true);
 	MovementForce = 140000;
 
@@ -66,15 +68,15 @@ void ABallPlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	
+	//VelocityHelper = GetVelocity();
 	//SpringArm->AddRelativeRotation(GetVelocity().Rotation(), true);
-	if (abs(GetVelocity().X) > 4 || abs(GetVelocity().Z))
+	/*if (abs(GetVelocity().X) > 4 || abs(GetVelocity().Z))
 	{
 		SpringArm->SetWorldRotation(FMath::Lerp(SpringArm->GetComponentQuat(),
 			 (GetVelocity() - FVector(0,0,200)).Rotation().Quaternion(), 0.05f), 0);
 		
-	}
-	
+	}*/
+
 }
 
 // Called to bind functionality to input

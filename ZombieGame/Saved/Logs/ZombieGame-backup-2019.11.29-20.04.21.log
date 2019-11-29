@@ -1,0 +1,742 @@
+﻿Log file open, 11/29/19 19:52:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ZombieGame
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.323506
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Engine.ini]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Engine.ini]
+[2019.11.29-19.52.11:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Engine.ini]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Engine.ini]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.29-19.52.11:775][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Engine.ini]
+[2019.11.29-19.52.11:775][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Engine.ini]
+[2019.11.29-19.52.11:778][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.29-19.52.11:778][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.29-19.52.11:779][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.29-19.52.11:779][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.29-19.52.11:779][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.29-19.52.11:796][  0]LogHAL: Display: Platform has ~ 8 GB [8436961280 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.29-19.52.11:796][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.29-19.52.11:797][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.29-19.52.11:797][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.29-19.52.11:797][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Scalability.ini]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.29-19.52.11:798][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Config/Windows/Engine.ini]
+[2019.11.29-19.52.11:798][  0]LogInit: Computer: DESKTOP-3LMBL47
+[2019.11.29-19.52.11:798][  0]LogInit: User: PedroSantos
+[2019.11.29-19.52.11:798][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.29-19.52.11:798][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.29-19.52.11:798][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.11.29-19.52.11:798][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.29-19.52.11:799][  0]LogMemory: Process Physical Memory: 97.84 MB used, 97.84 MB peak
+[2019.11.29-19.52.11:799][  0]LogMemory: Process Virtual Memory: 101.03 MB used, 101.03 MB peak
+[2019.11.29-19.52.11:799][  0]LogMemory: Physical Memory: 5346.93 MB used,  2699.19 MB free, 8046.11 MB total
+[2019.11.29-19.52.11:799][  0]LogMemory: Virtual Memory: 4654.27 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.11.29-19.52.12:027][  0]LogInit: Using OS detected language (pt-PT).
+[2019.11.29-19.52.12:027][  0]LogInit: Using OS detected locale (pt-PT).
+[2019.11.29-19.52.12:028][  0]LogTextLocalizationManager: No localization for 'pt-PT' exists, so 'en' will be used for the language.
+[2019.11.29-19.52.12:327][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.29-19.52.12:390][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.29-19.52.12:390][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.29-19.52.12:702][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.29-19.52.12:702][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.29-19.52.12:774][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.11.29-19.52.12:774][  0]LogD3D11RHI:       4018/0/4023 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.29-19.52.12:792][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.11.29-19.52.12:792][  0]LogD3D11RHI:       128/0/4023 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.11.29-19.52.12:796][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.29-19.52.12:796][  0]LogD3D11RHI:       0/0/4023 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.29-19.52.12:796][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.29-19.52.12:836][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.29-19.52.12:836][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.11.29-19.52.12:836][  0]LogWindows: EnumDisplayDevices:
+[2019.11.29-19.52.12:836][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.11.29-19.52.12:837][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.29-19.52.12:837][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.11.29-19.52.12:838][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.29-19.52.12:838][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.29-19.52.12:838][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.29-19.52.12:839][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.29-19.52.12:839][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.29-19.52.12:839][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.11.29-19.52.12:839][  0]LogD3D11RHI:   Driver Version: 391.01 (internal:23.21.13.9101, unified:391.01)
+[2019.11.29-19.52.12:839][  0]LogD3D11RHI:      Driver Date: 2-23-2018
+[2019.11.29-19.52.12:839][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.11.29-19.52.12:888][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.29-19.52.12:893][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.29-19.52.12:893][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.29-19.52.12:893][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.29-19.52.12:908][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.29-19.52.13:518][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.29-19.52.13:540][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.29-19.52.13:574][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.29-19.52.13:596][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.29-19.52.13:621][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.29-19.52.13:641][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.29-19.52.13:660][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.29-19.52.13:681][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.29-19.52.13:696][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.29-19.52.13:829][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.29-19.52.13:832][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.29-19.52.13:914][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.29-19.52.13:914][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.29-19.52.13:956][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.29-19.52.13:956][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.29-19.52.13:974][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.29-19.52.13:992][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.29-19.52.14:017][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.29-19.52.14:044][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.29-19.52.14:131][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.29-19.52.14:131][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.29-19.52.14:131][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.29-19.52.14:144][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.29-19.52.14:221][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Intermediate/Shaders/WorkingDirectory/16892/).
+[2019.11.29-19.52.14:221][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pedro Santos/AppData/Local/Temp/UnrealShaderWorkingDir/11C3D367474F3C729C5A8F83B98A606B/'.
+[2019.11.29-19.52.14:225][  0]LogXGEController: Cleaning working directory: C:/Users/Pedro Santos/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.29-19.52.14:225][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.29-19.52.14:225][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.29-19.52.14:225][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.29-19.52.15:091][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.29-19.52.15:157][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Pedro Santos/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.29-19.52.15:158][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pedro Santos/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.29-19.52.15:158][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.29-19.52.15:158][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.29-19.52.15:158][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.29-19.52.15:158][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.29-19.52.15:172][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.29-19.52.15:172][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.29-19.52.15:172][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.29-19.52.15:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pedro Santos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.29-19.52.15:185][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.29-19.52.15:185][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.29-19.52.15:209][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.29-19.52.15:210][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.29-19.52.15:211][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.29-19.52.15:302][  0]LogAssetRegistry: FAssetRegistry took 0.0347 seconds to start up
+[2019.11.29-19.52.15:739][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.29-19.52.15:942][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.29-19.52.15:942][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.29-19.52.15:942][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.29-19.52.15:942][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.29-19.52.15:942][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.29-19.52.15:956][  0]LogNetVersion: ZombieGame 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1715439906)
+[2019.11.29-19.52.16:545][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.094026 seconds
+[2019.11.29-19.52.16:557][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.29-19.52.16:557][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.29-19.52.16:557][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.29-19.52.17:674][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.29-19.52.17:688][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.29-19.52.17:823][  0]SourceControl: Source control is disabled
+[2019.11.29-19.52.17:824][  0]SourceControl: Source control is disabled
+[2019.11.29-19.52.17:825][  0]SourceControl: Source control is disabled
+[2019.11.29-19.52.17:826][  0]SourceControl: Source control is disabled
+[2019.11.29-19.52.17:912][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.29-19.52.18:034][  0]LogOcInput: OculusInput pre-init called
+[2019.11.29-19.52.18:858][  0]LogEngine: Initializing Engine...
+[2019.11.29-19.52.18:859][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.29-19.52.18:860][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.29-19.52.19:087][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.29-19.52.19:106][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.29-19.52.19:149][  0]LogInit: XAudio2 using 'Altifalantes (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.29-19.52.19:224][  0]LogInit: FAudioDevice initialized.
+[2019.11.29-19.52.19:224][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.29-19.52.23:119][  0]LogDerivedDataCache: Saved boot cache 3.89s 71MB C:/Users/Pedro Santos/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.29-19.52.23:125][  0]LogInit: Texture streaming: Enabled
+[2019.11.29-19.52.23:146][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.29-19.52.23:146][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9D31AE53-44CA-B601-251B-1199598CFDC0}
+[2019.11.29-19.52.23:177][  0]LogInit: Transaction tracking system initialized
+[2019.11.29-19.52.23:227][  0]BlueprintLog: New page: Editor Load
+[2019.11.29-19.52.23:341][  0]LocalizationService: Localization service is disabled
+[2019.11.29-19.52.23:787][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Content/' took 0.02s
+[2019.11.29-19.52.23:787][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.29-19.52.23:787][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.29-19.52.24:012][  0]SourceControl: Source control is disabled
+[2019.11.29-19.52.24:012][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.29-19.52.24:013][  0]LightingResults: New page: Lighting Build
+[2019.11.29-19.52.24:016][  0]MapCheck: New page: Map Check
+[2019.11.29-19.52.24:016][  0]LightingResults: New page: Lighting Build
+[2019.11.29-19.52.24:046][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.11.29-19.52.24:566][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.11.29-19.52.24:999][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.29-19.52.25:026][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.11.29-19.52.25:026][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.29-19.52.25:027][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,198ms to complete.
+[2019.11.29-19.52.25:027][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.014
+[2019.11.29-19.52.25:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-19.52.25:161][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-19.52.25:170][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-19.52.25:180][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-19.52.25:188][  0]LogCollectionManager: Loaded 0 collections in 0.002061 seconds
+[2019.11.29-19.52.25:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Saved/Collections/' took 0.01s
+[2019.11.29-19.52.25:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Content/Developers/PedroSantos/Collections/' took 0.01s
+[2019.11.29-19.52.25:218][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/Content/Collections/' took 0.00s
+[2019.11.29-19.52.25:218][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.29-19.52.25:229][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2739 classes and 661 folders.
+[2019.11.29-19.52.25:237][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.29-19.52.25:239][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:240][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:241][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:241][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:242][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:242][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:243][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:245][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:245][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:246][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:246][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:247][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:247][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:248][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:249][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:252][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:253][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:254][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:255][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.29-19.52.25:301][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.29-19.52.25:313][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.11.29-19.52.25:462][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.11.29-19.52.25:462][  0]LogLoad: (Engine Initialization) Total time: 15.91 seconds
+[2019.11.29-19.52.25:462][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.29-19.52.25:520][  0]LogAssetRegistry: Asset discovery search completed in 10.2418 seconds
+[2019.11.29-19.52.25:524][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.29-19.52.25:524][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2019.11.29-19.52.25:525][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.29-19.52.25:541][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.29-19.52.25:543][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.29-19.52.25:726][  1]LogRenderer: Reallocating scene render targets to support 804x372 Format 10 NumSamples 1 (Frame:1).
+[2019.11.29-19.52.37:091][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.29-19.52.37:224][671]Candidate modules for hot reload:
+[2019.11.29-19.52.37:224][671]  ZombieGame
+[2019.11.29-19.52.37:224][671]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ZombieGame,5532 Win64 Development -TargetType=Editor -Project="C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/ZombieGame.uproject" "C:/Users/Pedro Santos/Unreal/5th Semester/RaceZone/ZombieGame/ZombieGame.uproject"  -IgnoreJunk]
+[2019.11.29-19.52.37:227][671]Warning: Starting HotReload took  0.0s.
+[2019.11.29-19.52.38:154][711]LogRenderer: Reallocating scene render targets to support 972x448 Format 10 NumSamples 1 (Frame:705).
+[2019.11.29-20.03.31:982][902]CompilerResultsLog: New page: Compilation - 29/11/2019, 20:03:31
+[2019.11.29-20.03.32:070][902]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone).
+[2019.11.29-20.03.32:071][902]CompilerResultsLog: Creating makefile for ZombieGameEditor (ini files are newer than makefile)
+[2019.11.29-20.03.32:071][902]CompilerResultsLog: Parsing headers for ZombieGameEditor
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\ZombieGame.uproject" "C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\ZombieGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.29-20.03.32:071][902]CompilerResultsLog: Reflection code generated for ZombieGameEditor in 13,9754141 seconds
+[2019.11.29-20.03.32:071][902]CompilerResultsLog: Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.11.29-20.03.32:071][902]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   [1/5] Avatar.cpp
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Definitions.ZombieGame.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source\ZombieGame\Avatar.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:    C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Inc\ZombieGame\Avatar.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source\ZombieGame\BallPlayer.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Inc\ZombieGame\BallPlayer.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   [2/5] BallPlayer.cpp
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Definitions.ZombieGame.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source\ZombieGame\BallPlayer.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source\ZombieGame\Avatar.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:     C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:    C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Inc\ZombieGame\Avatar.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Inc\ZombieGame\BallPlayer.generated.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cmath
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xtgmath.h
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\iostream
+[2019.11.29-20.03.32:071][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\istream
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\ostream
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\ios
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:     C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xlocnum
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\climits
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdio
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:      C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\streambuf
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:       C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xiosbase
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:        C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\share.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\system_error
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cerrno
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\stdexcept
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xstring
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\iosfwd
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cstring
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cwchar
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xmemory
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cstdint
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\limits
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:             C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\cfloat
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xatomic.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:            C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xutility
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:             C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\utility
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xcall_once.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xerrc.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:        C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xlocale
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\memory
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\typeinfo
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:           C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\vcruntime_typeinfo.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xfacet
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xlocinfo
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\INCLUDE\xlocinfo.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:           C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\locale.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Source\ZombieGame\Laps.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Inc\ZombieGame\Laps.generated.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo: C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:    C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+[2019.11.29-20.03.32:072][902]CompilerResultsLog:   Observa??o: incluindo arquivo:   C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+[2019.11.29-20.03.32:073][902]CompilerResultsLog:   Observa??o: incluindo arquivo:  C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+[2019.11.29-20.03.32:073][902]CompilerResultsLog:   [3/5] UE4Editor-ZombieGame-5532.lib
+[2019.11.29-20.03.32:073][902]CompilerResultsLog:      Criando biblioteca C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-5532.lib e objeto C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-5532.exp
+[2019.11.29-20.03.32:073][902]CompilerResultsLog:   [4/5] UE4Editor-ZombieGame-5532.dll
+[2019.11.29-20.03.32:073][902]CompilerResultsLog:      Criando biblioteca C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-5532.suppressed.lib e objeto C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-5532.suppressed.exp
+[2019.11.29-20.03.32:073][902]CompilerResultsLog:   [5/5] ZombieGameEditor.target
+[2019.11.29-20.03.32:073][902]CompilerResultsLog: Total time in Parallel executor: 632,88 seconds
+[2019.11.29-20.03.32:073][902]CompilerResultsLog: Total execution time: 654,16 seconds
+[2019.11.29-20.03.32:073][902]LogMainFrame: MainFrame: Module compiling took 654.852 seconds
+[2019.11.29-20.03.32:331][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2019.11.29-20.03.32:861][902]LogHotReload: Re-instancing BallPlayer after hot-reload.
+[2019.11.29-20.03.34:677][902]LogContentBrowser: Native class hierarchy updated for 'ZombieGame' in 0.0005 seconds. Added 7 classes and 2 folders.
+[2019.11.29-20.03.34:682][902]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.11.29-20.03.34:882][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2019.11.29-20.03.34:971][902]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2740 classes and 663 folders.
+[2019.11.29-20.03.35:496][902]Display: HotReload took 658.3s.
+[2019.11.29-20.04.00:201][358]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.11.29-20.04.00:603][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2019.11.29-20.04.00:653][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.29-20.04.00:653][358]PIE: New page: PIE session: Minimal_Default (29/11/2019, 20:04:00)
+[2019.11.29-20.04.01:008][358]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default
+[2019.11.29-20.04.03:501][358]LogPlayLevel: PIE: StaticDuplicateObject took: (2.491804s)
+[2019.11.29-20.04.03:543][358]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.11.29-20.04.03:557][358]LogPlayLevel: PIE: World Init took: (0.056060s)
+[2019.11.29-20.04.03:557][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_1_Minimal_Default.Minimal_Default (2.548836s)
+[2019.11.29-20.04.03:584][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.11.29-20.04.03:741][358]LogInit: XAudio2 using 'Altifalantes (Realtek High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.29-20.04.03:799][358]LogInit: FAudioDevice initialized.
+[2019.11.29-20.04.04:024][358]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.29-20.04.21:126][358]LogWindows: Error: === Critical error: ===
+[2019.11.29-20.04.21:127][358]LogWindows: Error: 
+[2019.11.29-20.04.21:127][358]LogWindows: Error: Fatal error!
+[2019.11.29-20.04.21:127][358]LogWindows: Error: 
+[2019.11.29-20.04.21:127][358]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION 0x00000001
+[2019.11.29-20.04.21:127][358]LogWindows: Error: 
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x0000000000000001 UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8a518afb UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8368b07d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc826f85fe UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc826af561 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc826ac325 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc89823bcb UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d46b6ea UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d60425c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d626262 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d602c85 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d6046cb UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d626cd2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d728c07 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d650a27 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d64f0e2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d650c34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d64f0e2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d64e9ff UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d61024a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d64de76 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d605e11 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d61c00b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d7288c5 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d727d9a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d735d69 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d73db1b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d73d2e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8d73cd58 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc89b8b6e2 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc8a675443 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc89bb972d UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc837abe44 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc837e28e9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc837cafd9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc837e319f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc832bfc4a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffc83add396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ff65aee6bb1 UE4Editor.exe!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ff65aef554c UE4Editor.exe!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ff65aef55ca UE4Editor.exe!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ff65af0316c UE4Editor.exe!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ff65af05b8e UE4Editor.exe!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffcc6f67bd4 KERNEL32.DLL!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: [Callstack] 0x00007ffcc8b4ced1 ntdll.dll!UnknownFunction []
+[2019.11.29-20.04.21:127][358]LogWindows: Error: 
+[2019.11.29-20.04.21:273][358]LogExit: Executing StaticShutdownAfterError

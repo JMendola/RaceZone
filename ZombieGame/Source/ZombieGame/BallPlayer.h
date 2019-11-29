@@ -28,6 +28,7 @@ public:
 	UPROPERTY(EditAnywhere)
 
 	TSubclassOf<class AAvatar> ToSpawn;
+	//FVector VelocityHelper;
 	void Spawn();
 protected:
 	// Called when the game starts or when spawned

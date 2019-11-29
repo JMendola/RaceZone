@@ -25,10 +25,10 @@ void AAvatar::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	SetActorLocation(Daddy->GetActorLocation(),true);
 
-	FVector dadVelocity= Daddy->GetVelocity();
+	//FVector dadVelocity= Daddy->VelocityHelper;
 
-	RootComponent->SetWorldRotation(FMath::Lerp(RootComponent->GetComponentQuat(),
-		(FVector(dadVelocity.X,dadVelocity.Y,0) - FVector(0, 0, 0)).Rotation().Quaternion(), 0.05f), 0);
+	//RootComponent->SetWorldRotation(FMath::Lerp(RootComponent->GetComponentQuat(),
+		//(FVector(dadVelocity.X,dadVelocity.Y,0) - FVector(0, 0, 0)).Rotation().Quaternion(), 0.05f), 0);
 
 
 }
