@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ZOMBIEGAME_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 // End Cross Module References
 	static FName NAME_ABallPlayer_Jump = FName(TEXT("Jump"));
@@ -167,6 +168,10 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ToSpawn_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ToSpawn;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_thisAvatar_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_thisAvatar;
@@ -241,6 +246,13 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABallPlayer, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABallPlayer_Statics::NewProp_ToSpawn_MetaData[] = {
+		{ "Category", "BallPlayer" },
+		{ "ModuleRelativePath", "BallPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ABallPlayer_Statics::NewProp_ToSpawn = { "ToSpawn", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABallPlayer, ToSpawn), Z_Construct_UClass_AAvatar_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ABallPlayer_Statics::NewProp_ToSpawn_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABallPlayer_Statics::NewProp_ToSpawn_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABallPlayer_Statics::NewProp_thisAvatar_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "BallPlayer.h" },
@@ -261,6 +273,7 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_RootMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_ToSpawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_thisAvatar,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_currentLapID,
 	};
@@ -291,7 +304,7 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABallPlayer, 1140360693);
+	IMPLEMENT_CLASS(ABallPlayer, 2476647449);
 	template<> ZOMBIEGAME_API UClass* StaticClass<ABallPlayer>()
 	{
 		return ABallPlayer::StaticClass();

@@ -37,7 +37,28 @@ void ABallPlayer::BeginPlay()
 
 	classToFind = ALaps::StaticClass();
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), classToFind, foundObjects);
-//	thisAvatar = SpawnActor<AAvatar>(GetLocation(), GetRotation(), NULL, Instigator, true);
+	Spawn();
+    //thisAvatar = SpawnActor<AAvatar>(Mesh->GetLocation(), Mesh->GetRotation(), NULL, Instigator, true);
+}
+void ABallPlayer::Spawn()
+{
+	if (ToSpawn)
+	{
+		UWorld* world = GetWorld();
+		if (world)
+		{
+			FActorSpawnParameters spawnParams;
+			spawnParams.Owner = this;
+
+			FRotator rotator;
+
+			FVector spawnLocation = Mesh->GetComponentLocation();
+
+			AAvatar* Avatar = world->SpawnActor<AAvatar>(ToSpawn, spawnLocation, rotator, spawnParams);
+			Avatar->Daddy = Cast<ABallPlayer>(this);
+		}
+	}
+
 }
 
 // Called every frame

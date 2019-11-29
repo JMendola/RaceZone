@@ -25,7 +25,10 @@ public:
 		int currentLapID = 0;
 	UPROPERTY(EditAnywhere, Category = "Gameplay")
 		AAvatar *thisAvatar;
+	UPROPERTY(EditAnywhere)
 
+	TSubclassOf<class AAvatar> ToSpawn;
+	void Spawn();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone).
+  Creating makefile for ZombieGameEditor (ini files are newer than makefile)
+  Parsing headers for ZombieGameEditor
+    Running UnrealHeaderTool "C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\ZombieGame.uproject" "C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\ZombieGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ZombieGameEditor in 106,7511094 seconds
+  Using Visual Studio 2019 14.22.27905 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 5 actions with 8 processes...
+    [1/5] Avatar.cpp
+    [2/5] BallPlayer.cpp
+    [3/5] UE4Editor-ZombieGame-0087.lib
+       Criando biblioteca C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-0087.lib e objeto C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-0087.exp
+    [4/5] UE4Editor-ZombieGame-0087.dll
+       Criando biblioteca C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-0087.suppressed.lib e objeto C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-0087.suppressed.exp
+    [5/5] ZombieGameEditor.target
+  Total time in Parallel executor: 568,77 seconds
+  Total execution time: 706,08 seconds

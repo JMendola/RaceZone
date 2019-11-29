@@ -14,6 +14,7 @@ class ZOMBIEGAME_API AAvatar : public ACharacter
 public:
 	// Sets default values for this character's properties
 	AAvatar();
+	class ABallPlayer* Daddy;
 
 protected:
 	// Called when the game starts or when spawned

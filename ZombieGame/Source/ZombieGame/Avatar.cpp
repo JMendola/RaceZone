@@ -2,11 +2,11 @@
 
 
 #include "Avatar.h"
+#include "BallPlayer.h"
 
 // Sets default values
 AAvatar::AAvatar()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -14,6 +14,7 @@ AAvatar::AAvatar()
 // Called when the game starts or when spawned
 void AAvatar::BeginPlay()
 {
+	PrimaryActorTick.TickGroup = TG_PostPhysics;
 	Super::BeginPlay();
 	
 }
@@ -22,6 +23,13 @@ void AAvatar::BeginPlay()
 void AAvatar::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	SetActorLocation(Daddy->GetActorLocation(),true);
+
+	FVector dadVelocity= Daddy->GetVelocity();
+
+	RootComponent->SetWorldRotation(FMath::Lerp(RootComponent->GetComponentQuat(),
+		(FVector(dadVelocity.X,dadVelocity.Y,0) - FVector(0, 0, 0)).Rotation().Quaternion(), 0.05f), 0);
+
 
 }
 
