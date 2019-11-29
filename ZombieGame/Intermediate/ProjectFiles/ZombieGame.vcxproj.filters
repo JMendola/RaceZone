@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ZombieGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{01769FC1-6E7D-441B-B476-801CCA29C569}</UniqueIdentifier>
+      <UniqueIdentifier>{B7D40A3B-0F4B-4879-9456-FFF22E00B2C5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ZombieGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{13F0CDFF-E34D-4F4E-91E2-B0C2E6C060B0}</UniqueIdentifier>
+      <UniqueIdentifier>{575FCC8B-3D8D-48EF-A5AA-BC8F10980C67}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,48 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\ZombieGame">
-      <UniqueIdentifier>{95B25C83-5BE7-47C0-B0B0-D6DA81E3466A}</UniqueIdentifier>
+      <UniqueIdentifier>{B35466C0-E024-4611-85B8-7A8626C10A52}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ZombieGame\Avatar.cpp">
+      <Filter>Source\ZombieGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZombieGame\Avatar.h">
+      <Filter>Source\ZombieGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ZombieGame\BallPlayer.cpp">
+      <Filter>Source\ZombieGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZombieGame\BallPlayer.h">
+      <Filter>Source\ZombieGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ZombieGame\CollectionCoin.cpp">
+      <Filter>Source\ZombieGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZombieGame\CollectionCoin.h">
+      <Filter>Source\ZombieGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ZombieGame\KillPlane.cpp">
+      <Filter>Source\ZombieGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZombieGame\KillPlane.h">
+      <Filter>Source\ZombieGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ZombieGame\Laps.cpp">
+      <Filter>Source\ZombieGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZombieGame\Laps.h">
+      <Filter>Source\ZombieGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ZombieGame\MyCharacter.cpp">
+      <Filter>Source\ZombieGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ZombieGame\MyCharacter.h">
+      <Filter>Source\ZombieGame</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ZombieGame\ZombieGame.Build.cs">
       <Filter>Source\ZombieGame</Filter>
     </None>
@@ -41,15 +80,5 @@
     <ClInclude Include="..\..\Source\ZombieGame\ZombieGameGameModeBase.h">
       <Filter>Source\ZombieGame</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\ZombieGame\KillPlane.h">
-      <Filter>Source\ZombieGame</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\ZombieGame\KillPlane.cpp">
-      <Filter>Source\ZombieGame</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

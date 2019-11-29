@@ -18,17 +18,40 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_ZombieGame();
 	ZOMBIEGAME_API UFunction* Z_Construct_UFunction_ABallPlayer_Jump();
+	ZOMBIEGAME_API UFunction* Z_Construct_UFunction_ABallPlayer_MoveRight();
+	ZOMBIEGAME_API UFunction* Z_Construct_UFunction_ABallPlayer_MoveUp();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ZOMBIEGAME_API UClass* Z_Construct_UClass_AAvatar_NoRegister();
 // End Cross Module References
 	static FName NAME_ABallPlayer_Jump = FName(TEXT("Jump"));
 	void ABallPlayer::Jump()
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ABallPlayer_Jump),NULL);
 	}
+	static FName NAME_ABallPlayer_MoveRight = FName(TEXT("MoveRight"));
+	void ABallPlayer::MoveRight(float Value)
+	{
+		BallPlayer_eventMoveRight_Parms Parms;
+		Parms.Value=Value;
+		ProcessEvent(FindFunctionChecked(NAME_ABallPlayer_MoveRight),&Parms);
+	}
+	static FName NAME_ABallPlayer_MoveUp = FName(TEXT("MoveUp"));
+	void ABallPlayer::MoveUp(float Value)
+	{
+		BallPlayer_eventMoveUp_Parms Parms;
+		Parms.Value=Value;
+		ProcessEvent(FindFunctionChecked(NAME_ABallPlayer_MoveUp),&Parms);
+	}
 	void ABallPlayer::StaticRegisterNativesABallPlayer()
 	{
+		UClass* Class = ABallPlayer::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "MoveRight", &ABallPlayer::execMoveRight },
+			{ "MoveUp", &ABallPlayer::execMoveUp },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
 	struct Z_Construct_UFunction_ABallPlayer_Jump_Statics
 	{
@@ -49,6 +72,62 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABallPlayer_Jump_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABallPlayer_MoveRight_Statics
+	{
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(BallPlayer_eventMoveRight_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::NewProp_Value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BallPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABallPlayer, nullptr, "MoveRight", sizeof(BallPlayer_eventMoveRight_Parms), Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x80220CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABallPlayer_MoveRight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABallPlayer_MoveRight_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABallPlayer_MoveUp_Statics
+	{
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Value;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::NewProp_Value = { "Value", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(BallPlayer_eventMoveUp_Parms, Value), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::NewProp_Value,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BallPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABallPlayer, nullptr, "MoveUp", sizeof(BallPlayer_eventMoveUp_Parms), Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x80220CC0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABallPlayer_MoveUp()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABallPlayer_MoveUp_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -88,6 +167,10 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_thisAvatar_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_thisAvatar;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentLapID_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_currentLapID;
@@ -101,6 +184,8 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABallPlayer_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ABallPlayer_Jump, "Jump" }, // 2534202730
+		{ &Z_Construct_UFunction_ABallPlayer_MoveRight, "MoveRight" }, // 3324747490
+		{ &Z_Construct_UFunction_ABallPlayer_MoveUp, "MoveUp" }, // 2435561121
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABallPlayer_Statics::Class_MetaDataParams[] = {
@@ -156,6 +241,13 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABallPlayer, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABallPlayer_Statics::NewProp_thisAvatar_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "ModuleRelativePath", "BallPlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABallPlayer_Statics::NewProp_thisAvatar = { "thisAvatar", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABallPlayer, thisAvatar), Z_Construct_UClass_AAvatar_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABallPlayer_Statics::NewProp_thisAvatar_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABallPlayer_Statics::NewProp_thisAvatar_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABallPlayer_Statics::NewProp_currentLapID_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "BallPlayer.h" },
@@ -169,6 +261,7 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_RootMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_Mesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_thisAvatar,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABallPlayer_Statics::NewProp_currentLapID,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABallPlayer_Statics::StaticCppClassTypeInfo = {
@@ -198,7 +291,7 @@ void EmptyLinkFunctionForGeneratedCodeBallPlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABallPlayer, 2543354219);
+	IMPLEMENT_CLASS(ABallPlayer, 1140360693);
 	template<> ZOMBIEGAME_API UClass* StaticClass<ABallPlayer>()
 	{
 		return ABallPlayer::StaticClass();

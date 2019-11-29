@@ -8,6 +8,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Math/Rotator.h"
+#include "Avatar.h"
 #include "BallPlayer.generated.h"
 
 
@@ -22,6 +23,8 @@ public:
 	ABallPlayer();
 	UPROPERTY(EditAnywhere, Category = "Gameplay")
 		int currentLapID = 0;
+	UPROPERTY(EditAnywhere, Category = "Gameplay")
+		AAvatar *thisAvatar;
 
 protected:
 	// Called when the game starts or when spawned
@@ -33,6 +36,8 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UStaticMeshComponent* Mesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
@@ -49,6 +54,9 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void Jump();
 
+	UFUNCTION(Server,Reliable,WithValidation)
 	void MoveUp(float Value);
+	UFUNCTION(Server, Reliable, WithValidation)
 	void MoveRight(float Value);
+	void Die();
 };

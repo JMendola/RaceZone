@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ZombieGame-2732.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\ZombieGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\BallPlayer.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\CollectionCoin.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\KillPlane.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Laps.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\MyCharacter.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGame.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGameGameModeBase.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\BallPlayer.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\CollectionCoin.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\KillPlane.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Laps.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\MyCharacter.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGame.init.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\ZombieGameGameModeBase.gen.cpp.obj"
+"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\Default.rc2.res"
+/OUT:"C:\Users\Pedro Santos\Unreal\5th Semester\RaceZone\ZombieGame\Intermediate\Build\Win64\UE4Editor\Development\ZombieGame\UE4Editor-ZombieGame-2732.lib"
+/INCLUDE:IMPLEMENT_MODULE_ZombieGame

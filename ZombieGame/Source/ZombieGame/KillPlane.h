@@ -14,7 +14,7 @@ class ZOMBIEGAME_API AKillPlane : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AKillPlane();
-
+	virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
